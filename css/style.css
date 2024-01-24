@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar */
+
+nav{
+    border: solid 1px;
+    background-color: white;
+    padding: 15px;
+    height: 100px;
+}
+
+.logo img{
+    height: 70px;
+    float: left;
+}
+
+.grouplinks {
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+    padding-right: 30px;
+}
+
+.links {
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.links:hover{
+    color: white;
+    background-color: black;
+}
+
+/* Section, Home */
+
+section.homepage {
+    padding: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.homepage p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+.image1 {
+    float: left;
+    height: 450px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.image2 {
+    height: 600px;
+    border-radius: 30px;
+    border: solid black 1px;
+    margin-left: 230px;
+}
+
+section.homepage h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pagetitle{
+    font-size: 30px;
+}
+
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#header2{
+    margin-top: 50px;
+}
+
+.list li{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list p{
+    margin-left: 120px;
+    margin-bottom: 18px;
+}
+
+/* Section, About Us */
+
+section.aboutus{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    text-align: justify;
+}
+
+.aboutustitle {
+    font-size: 40px;
+}
+
+.image3{
+    height: 500px;
+    border-radius: 18px;
+    margin-left: 350px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.aboutusbody{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.vision{
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    float: left;
+}
+
+.mission{
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    float: left;
+    left: 500vw;
+}
+
+.howtohelp{
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    float: left;
+}
+
+.spacer{
+    width: 115px;
+    padding: 30px;
+    float: left;
+}
+
+.supportbutton{
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 15px;
+    text-align: center;
+}
+
+#support{
+    color: black;
+    text-decoration: none;
+}
+
+.supportbutton:hover{
+    background-color: gray;
+    font-weight: bold;
+}
+
